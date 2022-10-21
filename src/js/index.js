@@ -21,3 +21,15 @@ function menuAbrir() {
     menuAbrir.classList.add("open");
   }
 }
+
+let btn2 = document.querySelectorAll(".btn2");
+let btn = document.querySelectorAll(".btn1");
+
+function btnaS() {
+  if (btn && btn2) {
+    window.location = "https://guilhermewilker.github.io/Todo-Today/";
+    target = "_blank";
+  }
+}
+
+console.log(btnaS);
